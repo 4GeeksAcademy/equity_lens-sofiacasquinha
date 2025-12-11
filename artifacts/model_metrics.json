@@ -1,0 +1,36 @@
+{
+    "model_version": "v1.0_nb4_ridge",
+    "model_type": "Ridge",
+    "target": "lnrwg",
+    "uses_sex_as_feature": false,
+    "train_years": [
+        1999,
+        2007,
+        2009,
+        2011
+    ],
+    "test_year": 2013,
+    "train_r2": 0.4039323108861619,
+    "test_r2": 0.41405669147464486,
+    "train_mae": 0.3558924863496749,
+    "test_mae": 0.3637123030211503,
+    "alpha": 100.0,
+    "baseline_linear": {
+        "train_r2": 0.4039584146387606,
+        "test_r2": 0.41410058854773557,
+        "train_mae": 0.35588879679055846,
+        "test_mae": 0.36369931643236086
+    },
+    "fairness_by_sex_test": {
+        "1": {
+            "mean_residual": 0.06527405141691271,
+            "mean_abs_error": 0.3714340717122863,
+            "count": 24109
+        },
+        "2": {
+            "mean_residual": -0.07158894762419557,
+            "mean_abs_error": 0.35535739226921603,
+            "count": 22282
+        }
+    }
+}

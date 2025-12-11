@@ -1,0 +1,25 @@
+{
+  "model_A_r2": 0.40395841462892323,
+  "model_B_r2": 0.42453528815374486,
+  "delta_r2": 0.020576873524821626,
+  "gender_coef_female": -0.20969105166459978,
+  "gender_gap_pct": -18.91652866875768,
+  "ridge_gender_coef": -0.20968851745587438,
+  "ridge_gender_gap_pct": -18.916323186056783,
+  "fairness": {
+    "sex_1": {
+      "mean_residual_A": 0.0653241068848519,
+      "mean_abs_error_A": 0.37139135411048874,
+      "mean_residual_B": -0.006023253390399552,
+      "mean_abs_error_B": 0.3672203952803865,
+      "count": 24109
+    },
+    "sex_2": {
+      "mean_residual_A": -0.07149260195276518,
+      "mean_abs_error_A": 0.35537657326186434,
+      "mean_residual_B": 0.003555746575829763,
+      "mean_abs_error_B": 0.3487122756496658,
+      "count": 22282
+    }
+  }
+}

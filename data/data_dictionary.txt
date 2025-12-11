@@ -1,0 +1,244 @@
+CPS variables:
+
+NOTES: VARIABLES WITH A q AT THE BEGINNING ARE DATA QUALITY FLAGS. ANY VALUE GREATER THAN ZERO INDICATES SOME ISSUE WITH DATA QUALITY. THE EARNINGS DATA WITH ZEROS WAS ONLY USED DURING THE CREATION OF THIS VARIABLE. DUE TO LACK OF DATA AVAILABILITY for 1981, ALL OF THE HOURS AND WEEKS DATA WERE FORCED TO USE REGARDLESS OF THE DATA QUALITY FLAG.
+THE ORIGINAL CPS VARIABLES HAVE BEEN KEPT.
+OCCUPATION AND INDUSTRY WERE NOT USED IN THE CPS ANALYSIS.
+THE VARIABLES WITH tc AT THE BEGINNING INDICATE TOPCODED VALUES.
+
+year: Survey year
+serial: Household serial number
+numprec: Number of person records following
+hwtsupp: hwtsupp_lbl Household weight, Supplement
+gq: gq_lbl Group Quarters status
+region: region_lbl Region and division
+statefip: statefip_lbl State (FIPS code)
+metro: metro_lbl Metropolitan central city status
+metarea: metarea_lbl Metropolitan area
+county: FIPS county code
+farm: farm_lbl Farm (1=this is a farm, 2= it’s not a farm)
+month: month_lbl Month
+pernum: Person number in sample unit
+wtsupp: Supplement Weight
+relate: relate_lbl Relationship to household head (Head/hous=101, Spouse=201, Child=301, Stepchild=303, Parent=501, Sibling=701, Grandchil=901, Other rel=1001, Partner/r=1113, Unmarried=1114, Housemate=1115, Roomer/bo=1241, Foster ch=1242, Other non=1260)
+age: age_lbl Age
+sex: sex_lbl Sex (1=male, 2=female)
+race: raceLbl Race (White nonhisp=1, Black nonhisp=2, Hispanic=3, Other nonhisp=4)
+marst: marst_lbl Marital status (Married, spouse present=1, Married, spouse absent=2, Separated=3, Divorced=4, Widowed=5, Never mar=6)
+popstat; popstat_lbl Adult civilian, armed forces, or Child (1 for everyone—we include only civilian adults)
+bpl: bpl_lbl Birthplace
+yrimmig: yrimmig_lbl Year of immigration
+citizen: citizen_lbl Citizenship status
+mbpl: mbpl_lbl Mother's birthplace
+fbpl: fbpl_lbl Father's birthplace
+nativity: nativity_lbl Foreign birthplace or parentage
+hispan: hispan_lbl Hispanic origin
+sch: educLbl Educational attainment recode (None=0, 1=1, Grades 1=2, 2.5=2.5, 3=3, 4=4, Grades 5=5, 5.5=5.5, 6=6, Grades 7=7, 7.5=7.5, 8=8, Grade 9=9, Grade 10=10, Grade 11=11, Grade 12=12, Some Coll=13, Assoc.=14, BA=16, Adv. Degr=18)
+educ99: educ99_lbl Educational attainment, 1990, available for 1999 and later (No school=1, 1st-4th g=4, 5th-8th g=5, 9th grade=6, 10th grad=7, 11th grad=8, 12th grad=9, High scho=10, Some coll=11, Associate=13, Associate=14, Bachelors=15, Masters d=16, Professio=17, Doctorate=18)
+schlcoll: schlcoll_lbl School or college attendance; available only in 2013 (High school full time=1, High school part time=2, College or univ full time=3, College or univ part time=4, Does not attend school=5)
+empstat: empstat_lbl Employment status (At work=10, Has job, not at work now=12)
+labforce: labforce_lbl Labor force status everyone gets a 2—in the labor force
+occ: occ_lbl Occupation
+occ1990: occ1990_lbl Occupation, 1990 basis
+ind1990: ind1990_lbl Industry, 1990 basis
+occ1950: occ1950_lbl Occupation, 1950 basis
+ind: ind_lbl Industry
+ind1950: ind1950_lbl Industry, 1950 basis
+classwkr: classwkr_lbl Class of worker (Self-empl=10, Wage/salary, private sector=21, Wage/salary, government=24, Federal govt employee=25, State govt employee=27, Local govt employee=28, Unpaid family worker=29)
+occly: occly_lblOccupation last year
+occ50ly: occ50ly_lbl Occupation last year, 1950 basis
+indly: indly_lbl Industry last year
+ind50ly: ind50ly_lbl Industry last year, 1950 basis
+classwly: classwly_lbl Class of worker last year (Self-employed=14, Wage/salary private=22, Federal govt=25, State gov=27, Local gov=28, Unpaid family worker=29)
+wkswork1: wkswork1_lbl Weeks worked last year
+wkswork2: wkswork2_lbl Weeks worked last year, intervalled
+hrswork: hrswork_lbl Hours worked last week
+uhrswork: uhrswork_lbl Usual hours worked per week (last yr)
+union: union_lbl Union membership (only available for outgoing rotation group) (NIU=0, No union coverage=1, Member of labor union=2, Covered by union but not a member=3)
+incwage: incwage_lbl Wage and salary income
+incbus: incbus_lbl Non-farm business income
+incfarm: incfarm_lbl Farm income
+inclongj: inclongj_lbl Earnings from longest job
+oincwage: oincwage_lbl Earnings from other work included wage and salary earnings
+srcearn: srcearn_lbl Source of earnings from longest (1=wage and salary; 4=without pay) job
+ftype: ftype_lbl Family Type (Primary family=1, Nonfamily householder=2, Related subfamily=3, Unrelated subfamily=4, Secondary individual=5)
+quhrswor: quhrswor_lbl Data quality flag for UHRSWORK
+qwkswork: qwkswork_lbl Data quality flag for WKSWORK1 and WKSWORK2
+qincbus: qincbus_lbl Data quality flag for INCBUS
+qincfarm: qincfarm_lbl Data quality flag for INCFARM
+qinclong: qinclong_lbl Data quality flag for INCLONGJ
+qincwage: qincwage_lbl Data quality flag for INCWAGE
+qsrcearn: qsrcearn_lbl Data quality flag for SRCEARN
+o_numprec: Original Number of person records following'
+o_hwtsupp: Original Household weight, Supplement'
+o_gq: Original Group Quarters status'
+o_region: Original Region and division'
+o_statefip: Original State (FIPS code)'
+o_metro: Original Metropolitan central city status'
+o_metarea: Original Metropolitan area'
+o_county: Original FIPS county code'
+o_farm: Original Farm'
+o_month: Original Month'
+o_pernum: Original Person number in sample unit'
+o_wtsupp: Original Supplement Weight'
+o_relate: Original Relationship to household head'
+o_age: Original Age'
+o_sex: Original Sex'
+o_race: Original Race'
+o_marst: Original Marital status'
+o_popstat: Original Adult civilian, armed forces, or child'
+o_bpl: Original Birthplace'
+o_yrimmig: Original Year of immigration'
+o_citizen: Original Citizenship status'
+o_mbpl: Original Mother's birthplace'
+o_fbpl: Original Father's birthplace'
+o_nativity: Original Foreign birthplace or parentage'
+o_hispan: Original Hispanic origin'
+o_educ: Original Educational attainment recode'
+o_educ99: Original Educational attainment, 1990'
+o_schlcoll: Original School or college attendance'
+o_empstat: Original Employment status'
+o_labforce: Original Labor force status'
+o_occ: Original Occupation'
+o_occ1990: Original Occupation, 1990 basis'
+o_ind1990: Original Industry, 1990 basis'
+o_occ1950: Original Occupation, 1950 basis'
+o_ind: Original Industry'
+o_ind1950: Original Industry, 1950 basis'
+o_classwkr: Original Class of worker'
+o_occly: Original Occupation last year'
+o_occ50ly: Original Occupation last year, 1950 basis'
+o_indly: Original Industry last year'
+o_ind50ly: Original Industry last year, 1950 basis'
+o_classwly: Original Class of worker last year'
+o_wkswork1: Original Weeks worked last year'
+o_wkswork2: Original Weeks worked last year, intervalled'
+o_hrswork: Original Hours worked last week'
+o_uhrswork: Original Usual hours worked per week (last yr)'
+o_union: Original Union membership'
+o_incwage: Original Wage and salary income'
+o_incbus: Original Non-farm business income'
+o_incfarm: Original Farm income'
+o_inclongj: Original Earnings from longest job'
+o_oincwage: Original Earnings from other work included wage and salary earnings'
+o_srcearn: Original Source of earnings from longest job'
+o_ftype: Original Family Type'
+o_quhrswor: Original Data quality flag for UHRSWORK'
+o_qwkswork: Original Data quality flag for WKSWORK1 and WKSWORK2'
+o_qincbus: Original Data quality flag for INCBUS'
+o_qincfarm: Original Data quality flag for INCFARM'
+o_qincwage: Original Data quality flag for INCWAGE'
+origrace: race_lbl Race
+white: white nonhispanic dummy variable
+black: black nonhispanic dummy variable
+hisp: Hispanic dummy variable
+othrace: other race dummy variable
+educorig: original education codes (see CPS documentation site mentioned above)
+ba: bachelor’s degree dummy variable
+adv: advanced degree dummy variable
+groupquar: group quarters dummy variable. Zero for everyone.
+potexp: age-yrs of schooling-6
+potexp2: potexp squared
+selfemp: self employment dummy variable. Zero for everone.
+military: =1 if military (Based on popstat variable). Variable is zero for everyone.
+employed: equals 1 for everyone
+annhrs: annual work hours
+ft: full time work dummy variable
+niincwage: Not Imputed incwage
+incwageman: Manually Created INCWAGE
+tcoincwage
+tcinclongj
+tcincwage: True Topcoded INCWAGE (Includes Imputed Values)
+hrwage: hourly wage
+perconexp: T-1 Personal Consumption Expenditure
+expendbase10: 2010 PCE value
+inflate: inflation factor for expressing wages in 2010 dollars
+realhrwage: Real Hourly Wage, inflated to 2010 dollars
+uncenrealhrwage: Real Hourly Wage (same as realhrwage)
+lnrwg: log of real hourly wage
+hdwfcoh: Head/Wife/Cohabitator Indicator
+notalloc: not allocated wage. Equals 1 for everyone.
+basesamp: base sample; 1 for everyone
+wagesamp: wage sample dummy variable
+occ_orig:
+adj_occ: in some years, occupation has four digits and in others it has 3. This expresses occupation in 3 digits
+occ_2010_orig
+ind_orig
+adj_ind
+ind_2002_orig
+ind_2007_orig
+occ_81
+ind_81
+occ_2000female: 2000 Occupation Code
+unmatched_fe~81
+occ_2000male: 2000 Occupation Code
+unmatched_ma~81
+ind_2000
+occ2000_81: 1981 occupation codes converted to 2000 codes
+ind2000_81: 1981 industry codes converted to 2000 codes
+occ_1990
+ind_1990
+occ_1999
+ind_1999
+unmatched_oc~90
+occ2000_90: 1990 occupation codes converted to 2000 codes
+unmatched_in~90
+ind2000_90: 1990 industry codes converted to 2000 codes
+indname2000_90
+unmatched_oc~99
+occ2000_99: 1990 occupation codes converted to 2000 codes
+unmatched_in~99
+ind2000_99: 1990 industry codes converted to 2000 codes
+indname2000_99
+un_lnrealwg: Log of Real Hourly Wage
+northeast: Region: North-East
+northcentral: Region: North-Central
+south: Region: South
+west: Region: West, Alaska and Hawaii
+female
+adj_ind2
+adj_occ2
+adj_occ2name
+Agriculture
+miningconstru~n: adj_ind: Mining and Construction
+durables: adj_ind: Durables Manufacturing
+nondurables: adj_ind: Non-durables
+Manufacturing
+Transport: adj_ind: Transport
+Utilities: adj_ind: Utilities
+Communications: adj_ind: Communications
+retailtrade: adj_ind: Retail Trade
+wholesaletrade: adj_ind: Wholesale Trade
+finance: adj_ind: Finance
+SocArtOther: adj_ind: Social Work, Arts and Recreation, Other Services
+hotelsrestaur~s: adj_ind: Hotels and Restaurants
+Medical: adj_ind: Medical
+Education: adj_ind: Education
+professional: adj_ind: Professional Services
+publicadmin: adj_ind: Public Administration
+sumadj_ind: sum of industry dummy variables
+manager: Manager
+business: Business Operations Specialists
+financialop: Financial Operations Specialists
+computer: Computer and Math Technicians
+architect: Architects an Engineers
+scientist: Life, Physical and Social Sciences
+socialworker: Community and Social Workers
+postseceduc: Post-secondary educators
+legaleduc: Other Education, Training, Library and Legal adj_occupations
+artist: Arts, Design, Entertainment, Sports and Media
+lawyerphysician: Physicians and Dentists
+healthcare: Nurses and HealthCare Practitioners and Technicians
+healthsupport: Healthcare Support adj_occupations
+protective: Protective Service adj_occupations
+foodcare: Food Preparation and Serving and Personal Care Services
+building: Building and Grounds Cleaning and Maintenance
+sales: Sales and Related
+officeadmin: Office and Administrative Support
+farmer
+constructextr~l: Construction, Extraction,
+Installation
+production: Production
+transport: Transportation and Materials
+Moving
+sumadj_occ: sum of occupation dummy variables
+LEHS: dummy for less than or equal to high school
